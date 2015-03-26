@@ -15,7 +15,16 @@
 	 * function instead of this comment.
 	 */
 int main () {
+	int lightPort = 3;
+	int x = 1
+	//start the program
 	
+	
+	printf("This is the start of the program");
+	printf("Light sensor reading is %d\n", analog(lightPort));
+	while(analog(lightPort) <= 1){
+		
+	}
 			// return 0 if everything is successful
 		return 0;
 }
